@@ -1,10 +1,15 @@
-
+"use client";
+import { motion } from "framer-motion";
 export default function Home() {
   return (
     <main className="overflow-hidden relative">
       <section className="relative overflow-hidden bg-main-image bg-no-repeat bg-cover">
-        
-        <div className="min-h-screen m-auto container">
+        <motion.div
+          initial={{ translateY: "-10%", opacity: "0" }}
+          animate={{ translateY: "0%", opacity: "1" }}
+          
+          className="min-h-screen m-auto container"
+        >
           <h1 className="text-6xl text-center leading-tight absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             Гостевой дом <br /> «Солнечная Вилла» <br /> в Черноморском
           </h1>
@@ -28,7 +33,7 @@ export default function Home() {
             </svg>
             Прокрутите вниз
           </div>
-        </div>
+        </motion.div>
       </section>
       <section className="m-auto container">
         <div className="m-auto flex flex-col gap-10 justify-center items-center py-24">
