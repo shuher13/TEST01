@@ -10,7 +10,7 @@ export default function Contacts() {
             frameBorder="0"
           ></iframe>
           <div className="flex flex-wrap justify-center gap-10 items-center">
-            <div className="flex flex-col gap-4 w-[45%]">
+            <div className="flex flex-col gap-4 w-[90%] tablet:w-[45%]">
               <h4 className="w-full text-center text-2xl font-bold">
                 Контакты
               </h4>
@@ -23,13 +23,13 @@ export default function Contacts() {
                 </li>
               </ol>
             </div>
-            <div className="flex flex-col gap-4 w-[45%]">
+            <div className="flex flex-col gap-4 w-[90%] tablet:w-[45%]">
               <h4 className="text-center text-2xl font-bold">Адрес</h4>
               <ol className="flex gap-6 text-center">
                 <li>Республика Крым, Черноморский район, село Новосельское, Восточная улица, 93</li>
               </ol>
             </div>
-            <div className="flex flex-col items-center gap-4 w-[100%]">
+            <div className="flex flex-col items-center gap-4 w-[90%]">
               <h4 className="text-2xl font-bold">Время Заезда-Выезда</h4>
               <ol className="flex flex-col gap-1">
                 <li>Будни: 00:00-00:00</li>
