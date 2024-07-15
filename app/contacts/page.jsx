@@ -2,8 +2,8 @@ export default function Contacts() {
   return (
     <main className="relative mt-40">
       <section className="relative overflow-hidden">
-        <div className="container m-auto flex gap-20 py-20 justify-between">
-          <iframe
+        <div className="container m-auto flex flex-col tablet:flex-row gap-20 py-20 justify-between">
+          <iframe className="w-full tablet:w-auto"
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab0e25b1532dfa1dce83d76a65135ff0e4280c56550ff5cd4c1ea710370021e30&amp;source=constructor"
             width="562"
             height="446"
